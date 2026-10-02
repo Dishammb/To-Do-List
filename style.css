@@ -1,0 +1,56 @@
+
+    /* 🐰 TaskNest Artistic Grid Layout */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("bunny-bg.png") no-repeat center center/cover;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 45%;
+  transform: translate(-10%, -5%);
+  
+  padding: 30px;
+  text-align: right;
+  z-index: 2;
+ 
+}
+
+.text-block h1 {
+  font-size: 3rem;
+  color: beige;
+  margin: 0;
+}
+
+.text-block p {
+  font-size: 1rem;
+  color: beige;
+  margin-top: 1px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  background: #ff7a65;
+}
